@@ -44,6 +44,8 @@ c = 10; // Assigning our variable
 console.log("Initialization 1:", c);
 
 c = 33; //reassigning the value of our variable
+console.log("Reassigning", c);
+
 let y = "hello";
 // emmet for consol.log( -> clg)
 console.log("Both", c, y);
@@ -60,3 +62,13 @@ console.log (today, javascript);
 
 // javascript = "Super!";
 console.log(today, javascript); // TypeError 
+
+console.log("This message is a string");
+let name = "Your name goes here";
+console.log("Log: ", name);
+
+console.warn("This is a warning");
+let warning = "uh oh";
+console.warn("warn:", warning);
+
+console.error("This is an error message"); 
